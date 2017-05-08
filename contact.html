@@ -1,7 +1,77 @@
 <html>
     <head>
-        <title> Lab 06 Forms</title>
+        <title> Place Your Order </title>
+        
         <style type="text/css"></style>
-    <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400" rel="stylesheet">
+        
     </head>
+<body>
+    
+   
+    <!–– The Lab 05 HTML Assignment page is linked in the "Home" link and goes to its url of "links.html" ––>
+<ul>
+	<li><a href="links.html">Home</a></li>
+    <li><a href="#shop.html">Shop</a></li>
+    <li><a href="#customize.html">Customize</a></li>
+    <li><a href="#innovation.html">Innovation</a></li>
+    <li><a href="#ourstory.html">Our Story</a></li>
+    <li><a href="#contact.html">Contact</a></li>
+</ul>
+    
+    
+     <h1>Place Your Order</h1>
+    
+<fieldset>
+    <legend>Shipping address</legend>
+     <p><label>First name:  <input type="text" name="First name"/></label></p>
+    <p><label>Last name:  <input type="text" name="Last name"/></label></p>
+    <p><label>Address:  <input type="text" name="Address"/></label></p>
+    <p><label>City:  <input type="text" name="City"/></label></p>
+    <p><label>State:  <input type="text" name="State"/></label></p>
+    <p><label>Zip:  <input type="text" name="Zip"/></label></p>
+    <p><label>Phone number:  <input type="text" name="Phone number"/></label></p>
+    <p><label>Email:  <input type="text" name="Email"/></label></p> 
+    
+    <p>Gender:
+    <input type="radio" name="gender" value="Male" /> Male
+     <input type="radio" name="gender" value="Female" /> Female   
+    </p>
+    
+    <p>Please select your favorite five colors:
+    <input type="radio" name="color" value="Red" /> Red
+     <input type="radio" name="color" value="Yellow" /> Yellow  
+    <input type="radio" name="color" value="Blue" /> Blue
+     <input type="radio" name="color" value="Green" /> Green
+    <input type="radio" name="color" value="Purple" /> Purple
+     <input type="radio" name="color" value="Pink" /> Pink 
+        
+    <input type="radio" name="color" value="Black" /> Black
+     <input type="radio" name="color" value="White" /> White     
+    </p>  
+</fieldset> 
+    
+ <fieldset>
+    <legend>Payment</legend>
+     
+      <input type="radio" name="Card type" value="Mastercard" /> <img src="images/mastercard.png" alt="Mastercard"/>
+     <input type="radio" name="Card type" value="Visa" /> <img src="images/visa.png" alt="Visa"/>  
+     <input type="radio" name="Card type" value="American Express" /> <img src="images/american_express.png" alt="American Express"/>
+     
+    
+     
+     <p><label>Credit Card Number:  <input type="text" name="Credit Card Number"/></label></p>
+    <p><label>Expiration Date:  <input type="text" name="Expiration date"/></label></p>
+    <p><label>Seurity Code:  <input type="text" name="Security Code"/></label></p>
+
+    </fieldset>
+    
+ 
+    <input type="submit" name="Submit" value="Submit" />
+    
+    </body>
+
+
+</html>
+

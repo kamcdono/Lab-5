@@ -16,12 +16,11 @@ a:link {
 	padding: 14px 16px;
 	text-decoration: none;
 	color: black;
+    font-family: 'Nunito Sans', sans-serif;
+	font-style: 300;
 	
 }
 
-a:visited {
-	color: white;
-}
 
 a:hover {
 	color: blue;
@@ -38,6 +37,7 @@ h1 {
 	font-family: 'Nunito Sans', sans-serif;
 	font-style: 400;
 	padding: none;
+    color: palevioletred;
 }
 
 h2 {
@@ -89,26 +89,75 @@ table {
 
 
 
+p {font-family: 'Nunito Sans', sans-serif;
+    font-style: 300;
+    font-size:  12pt;
+     
+}
+
+
+
+legend {font-family: 'Nunito Sans', sans-serif;
+    font-style: 300;
+    font-size:  14pt;
+    color: palevioletred;
+     
+}
+
+
+
+input {
+    font-size: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5 px;
+    background-color: whitesmoke;
+}
 
 
 
 
+input#submit {
+    text-decoration-color: black;
+    color: black;
+    text-shadow: 0px 1px 1px palevioletred;
+    border-bottom: 2px solid #b3b4b5;
+    background-color: black;
+    box-shadow: 10px;
+   
+    
+}
+
+
+input#submit:hover {
+    color: #333333;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    
+    
+}
+
+
+fieldset {
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: pink;
+      
+}
+
+
+legend {
+    background-color: whitesmoke;
+    border: 3px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+    
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    
