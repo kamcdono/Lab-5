@@ -129,13 +129,6 @@ input#submit {
 }
 
 
-input#submit:hover {
-    color: #333333;
-    border: 1px solid #a4a4a4;
-    text-align: center;
-    
-    
-}
 
 
 fieldset {
