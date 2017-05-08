@@ -2,6 +2,7 @@
 /* CSS Document */
 
 ul {
+	margin: 0;
 	list-style-type: none;
 	
 }
@@ -14,8 +15,8 @@ a:link {
 	display: block;
 	padding: 14px 16px;
 	text-decoration: none;
-	color: red;
-	background-color: yellow;
+	color: black;
+	
 }
 
 a:visited {
@@ -30,10 +31,84 @@ a:active {
 	color: green;
 }
 
-tr {
-	padding: 20px;
-	background-color: blue;
+
+
+h1 {
+	clear: both;
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: 400;
+	padding: none;
 }
+
+h2 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: 300;
+	padding: none;
+}
+
+th:nth-child(1) {
+	text-align: left;
+	padding: 0 20px;
+}
+
+
+td {
+	padding: 4px 30px;
+	border-left: 5px solid #CECBCB;
+	border-right: 5px solid #CECBCB;
+	
+}
+
+tr {
+	vertical-align: bottom;
+	
+}
+
+
+	tr:nth-child(2n) {
+	background-color: #EEED01;
+}
+
+tr:nth-child(2) {
+	border-top: 5px solid #CECBCB;
+}
+
+
+
+span { 
+	font-style: italic;
+	font-weight: 200;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-bottom: 5px solid #CECBCB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
